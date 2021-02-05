@@ -12,7 +12,7 @@ def sent(request):
     mail = smtplib.SMTP('smtp.gmail.com', 587)
     mail.ehlo()
     mail.starttls()
-    mail.login('yashpythonemail@gmail.com', 'y@shgurukul')
+    mail.login('yashpythonemail@gmail.com', 'ijarileucauossqo')
     Name = request.GET.get('Name', 'default')
     Name = Name.rstrip()
     Name = Name.lstrip()
