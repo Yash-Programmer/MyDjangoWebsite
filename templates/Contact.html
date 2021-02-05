@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+    <style>
+
+        body {
+        background-color: #d3e0ea;
+        }
+
+        textarea {
+        resize: none;
+        border: 4px solid #1687a7;
+        font-family: Arial;
+        font-size: 20px;
+        }
+
+        input {
+        width: 25%;
+        border: 4px solid #1687a7;
+        height: 30px;
+        font-family: Arial;
+        font-size: 20px;
+        }
+
+        label {
+        font-family: Arial;
+        font-size: 35px;
+        }
+
+        span {
+        color: red;
+        }
+
+        button {
+        color: black;
+        background-color: #1687a7;
+        padding: 4px 2px;
+        font-family: Arial;
+        font-size: 25px;
+        border-color: #276678;
+        border-width: 5px;
+        }
+
+
+    </style>
+</head>
+<body>
+<center>
+    <h1 style="font-size: 60px; font-family: Arial;">📞Contact</h1>
+    <hr style="width: 95%; height: 5px; background-color: Black;">
+</center>
+<form action="/Sent" method="get">
+    <br><br><br>
+    <label>Your Name: <span>*</span></label>
+    <br>
+    <input name="Name" required type="text">
+    <br><br><br>
+    <label>Your Message: <span>*</span></label>
+    <br>
+    <textarea name="Message" required style="margin: 0px; height: 153px; width: 98%;"></textarea>
+    <br><br><br>
+    <label>How did you get here?</label>
+    <br>
+    <textarea name="howGethere" required style="margin: 0px; width: 98%; height: 56px;"></textarea><br>
+    <br><br>
+    <center>
+        <button style="width: 150px; height: 75px;" type="submit">Send</button>
+    </center>
+    <br><br>
+</form>
+</body>
+</html>
