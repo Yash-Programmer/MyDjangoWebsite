@@ -49,6 +49,15 @@ def Contact(request):
 def Projects(request):
     return render(request, 'Projects.html')
 
+def SourceCodeNTNN(request):
+    return render(request, 'NumberToNumberNames_SourceCode.html')
+
+def SourceCodeYTD(request):
+    return render(request, 'YouTubeVideoDownloader.html')
+
+def SourceCodeMD(request):
+    return render(request, 'MotionDetector.html')
+
 
 def sent(request):
     mail = smtplib.SMTP('smtp.gmail.com', 587)

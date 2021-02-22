@@ -27,5 +27,8 @@ urlpatterns = [
     path('Introduction', views.intro, name='Intro'),
     path('Chat', views.chat, name='Chat'),
     path('Follow', views.follow, name='FollowMe'),
-    path('Skills', views.skills, name='Skills')
+    path('Skills', views.skills, name='Skills'),
+    path('NumberToNumberNames', views.SourceCodeNTNN, name='SourceCodeNTNN'),
+    path('MotionDetector', views.SourceCodeMD, name='SourceCodeMD'),
+    path('YouTubeVideoDownloader', views.SourceCodeYTD, name='SourceCodeYTD')
 ]
