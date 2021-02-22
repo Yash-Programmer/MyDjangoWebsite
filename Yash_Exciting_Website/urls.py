@@ -22,5 +22,10 @@ urlpatterns = [
     path('', views.homepage, name='home'),
     path('Contact', views.Contact, name='contact'),
     path('Sent', views.sent, name='Sent'),
-    path('Projects', views.Projects, name='projects')
+    path('Projects', views.Projects, name='projects'),
+    path('Answer', views.ans, name='Answer'),
+    path('Introduction', views.intro, name='Intro'),
+    path('Chat', views.chat, name='Chat'),
+    path('Follow', views.follow, name='FollowMe'),
+    path('Skills', views.skills, name='Skills')
 ]

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat</title>
+    <link href="https://raw.githubusercontent.com/Yash-Varshney-Creativities/Yash-Varshney-Creativities/main/AppLogo.ico"
+          rel="icon">
+    <style>
+    span {
+        color: red;
+    }
+    button {
+        color: black;
+        background-color: #1687a7;
+        padding: 4px 2px;
+        font-family: Arial;
+        font-size: 25px;
+        border-color: #276678;
+        border-width: 5px;
+    }
+    label {
+        font-family: Arial;
+        font-size: 35px;
+    }
+
+    br {
+        style="margin: 0px;-webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -o-user-select: none;
+        user-select: none;"
+    }
+
+    input {
+        resize: none;
+        border: 4px solid #1687a7;
+        font-family: Arial;
+        font-size: 20px;
+        width: 37.5%;
+        height: 2em;
+    }
+
+
+    ::selection {
+		color: #0a043c;
+		background: #d3e0ea;
+    }
+
+
+    </style>
+</head>
+<body style="margin: 0;background-color: #f2f2f2;">
+<center>
+    <h1 style="font-size: 60px; font-family: Arial;">Chat💬</h1>
+    <hr style="width: 95%; height: 5px; background-color: Black;">
+    <form action="/Answer" method="get">
+        <br><br>
+        <label>Your Message: <span>*</span></label>
+        <br>
+<!--        <input name="query" required type="text">-->
+        <input name="query" required>
+        <br><br>
+        <button style="width: 150px; height: 75px; margin: 0px;-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-o-user-select: none;
+user-select: none;" type="submit">Send</button>
+    </form>
+</center>
+</body>
+</html>
