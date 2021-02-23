@@ -33,7 +33,7 @@
             -o-user-select: none;
             user-select: none;
         }
-
+		
         br {
             -webkit-user-select: none;
             -khtml-user-select: none;
@@ -56,7 +56,19 @@
             color: red;
         }
 
-        button {
+		#mybutton {
+		width: 150px;
+		height: 75px;
+		margin: 0px;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-o-user-select: none;
+		user-select: none;
+		transition: height 0.2s, width 0.2s;
+		}
+	
+        #select {
             color: black;
             background-color: #1687a7;
             padding: 4px 2px;
@@ -64,8 +76,13 @@
             font-size: 25px;
             border-color: #276678;
             border-width: 5px;
+			transition: font-size 0.5s;
         }
 
+		
+		#select:hover {
+            font-size: 30px;
+        }
 
 
     </style>

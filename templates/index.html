@@ -8,16 +8,21 @@
     <style>
 
         br {
-            style="margin: 0px;-webkit-user-select: none;
+            -webkit-user-select: none;
             -khtml-user-select: none;
             -moz-user-select: none;
             -o-user-select: none;
-            user-select: none;"
+            user-select: none;
         }
 
         #heading {
             font-family: Caveat;
             font-size: 100px;
+			transition: font-size 0.1s;
+        }
+		
+		#heading:hover {
+            font-size: 110px;
         }
 
         #Menu {
@@ -61,6 +66,22 @@
             transition: 0.1s;
         }
 
+		html {
+			scroll-behavior: smooth;
+		}
+
+		#myimg {
+		  width: 100px;
+		  height: 100px;
+		  transition: width 0.5s, height 0.5s;
+		}
+
+		#myimg:hover {
+		  width: 110px;
+		  height: 110px;
+		  
+		}
+
         .btn2 {
             style="margin: 0px;-webkit-user-select: none;
             -khtml-user-select: none;
@@ -98,10 +119,9 @@
     </style>
 
 </head>
-<body>
+<body style="margin: 0px;">
 <div id="Menu">
-    <br>
-
+	<hr style="margin: 0px; border-width: 3.5px; border-color: black;">
     <a style="float: left ;" class="btn2" href="#">Yash's Website</a>
     <a style="float: right;" class="btn" href="/Follow">Follow Me</a>
     <a style="float: right;" class="btn" href="/Projects">View My Projects</a>
@@ -109,12 +129,12 @@
     <a style="float: right;" class="btn" href="/Skills">My Skills</a>
     <a style="float: right;" class="btn" href="/Chat">Chat</a>
     <a style="float: right;" class="btn" href="/Introduction">Introduction</a>
-    <br><br><br><hr>
+    <br><br><hr>
 </div>
 <div style="background-color: #d3e0ea;">
     <center>
         <br>
-        <img style="-webkit-user-select: none;
+        <img id="myimg" style="-webkit-user-select: none;
  -khtml-user-select: none;
  -moz-user-select: none;
  -o-user-select: none;
