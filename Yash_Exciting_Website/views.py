@@ -1,3 +1,4 @@
+from django.http import HttpResponse
 from django.shortcuts import render
 import smtplib
 import emoji
@@ -6,7 +7,6 @@ from email.utils import formataddr
 import wolframalpha as wf
 import re
 import wikipedia as wiki
-
 
 def intro(request):
     return render(request, 'intro.html')
