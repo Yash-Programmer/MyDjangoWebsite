@@ -90,13 +90,9 @@ def sent(request):
 <head>
     <meta charset="UTF-8">
     <style>
-      .heading {
+    
+    .heading {
       background-color: #0a043c;
-    }
-
-    body {
-      margin: 0;
-      background-color: #1687a7;
     }
 
     .from {
@@ -143,39 +139,41 @@ def sent(request):
     </style>
 </head>
 <body style="background-color: #1687a7;">
-<div class="heading">
-  <center>
-    <img src="https://github.com/Yash-Varshney-Creativities/Yash-Varshney-Creativities/blob/main/Head.jpg?raw=true">
-  </center>
-</div>
-<br>
-<div class="from">
-  <center>
-    <p style="color: #d3e0ea;" class="heads1">Mail From """ + Name + """</p>
-    <p></p>
-  </center>
-  <hr>
-</div>
-<br>
-<div class="message">
-  <center>
-    <p style="color: #d3e0ea;" class="heads2">Message</p>
+<div style="background-color: 1687a7;">
+    <div class="heading">
+      <center>
+        <img src="https://github.com/Yash-Varshney-Creativities/Yash-Varshney-Creativities/blob/main/Head.jpg?raw=true">
+      </center>
+    </div>
     <br>
-    <hr noshade class="special">
-    <p style="color: #d3e0ea;" class="user_message_entry">""" + User_Message + """</p>
-  </center>
-</div>
-<hr>
-<div class="message">
-    <center>
-      <br>
-      <p style="color: #d3e0ea;" class="heads2">How Did You Get Here?</p>
-      <br>
-      <hr noshade class="special">
-      <p style="color: #d3e0ea;" class="user_message_entry">""" + howDidYouGetHere + """</p>
-    </center>
-  <hr>
-  <br><br><br><br><br><br><br><br><br>
+    <div class="from">
+      <center>
+        <p style="color: #d3e0ea;" class="heads1">Mail From """ + Name + """</p>
+        <p></p>
+      </center>
+      <hr>
+    </div>
+    <br>
+    <div class="message">
+      <center>
+        <p style="color: #d3e0ea;" class="heads2">Message</p>
+        <br>
+        <hr noshade class="special">
+        <p style="color: #d3e0ea;" class="user_message_entry">""" + User_Message + """</p>
+      </center>
+    </div>
+    <hr>
+    <div class="message">
+        <center>
+          <br>
+          <p style="color: #d3e0ea;" class="heads2">How Did You Get Here?</p>
+          <br>
+          <hr noshade class="special">
+          <p style="color: #d3e0ea;" class="user_message_entry">""" + howDidYouGetHere + """</p>
+        </center>
+      <hr>
+      <br><br><br><br><br><br><br><br><br>
+    </div>
 </div>
 </body>
 </html>
