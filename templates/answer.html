@@ -3,9 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Response</title>
-    <link href="https://raw.githubusercontent.com/Yash-Varshney-Creativities/Yash-Varshney-Creativities/main/AppLogo.ico"
-          rel="icon">
+    <link href="https://raw.githubusercontent.com/Yash-Varshney-Creativities/Yash-Varshney-Creativities/main/AppLogo.ico" rel="icon">
+	<meta name="viewport" content="width=device-width, initial-space=1.0">
     <style>
+	
+		
+		body {
+			opacity: 0;
+			transition: opacity 2s ease; 
+		}
+
+		.loaded {
+		   opacity : 1;
+		}
+
+	
         ::selection {
             color: #0a043c;
             background: #d3e0ea;
@@ -64,11 +76,7 @@
 
     </style>
 </head>
-<body style="-webkit-user-select: none;
--khtml-user-select: none;
--moz-user-select: none;
--o-user-select: none;
-user-select: none;">
+<body onload="document.body.classList.add('loaded')" style="-webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -o-user-select: none; user-select: none;">
 <div style="margin: 40px; background-color: #d3e0ea; -webkit-box-shadow: 0px 5px 8px #666666;
   -moz-box-shadow: 0px 1px 3px #666666;
   box-shadow: 0px 1px 3px #666666;">

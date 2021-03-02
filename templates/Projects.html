@@ -3,9 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>My Projects</title>
-    <link href="https://raw.githubusercontent.com/Yash-Varshney-Creativities/Yash-Varshney-Creativities/main/AppLogo.ico"
-          rel="icon">
+    <link href="https://raw.githubusercontent.com/Yash-Varshney-Creativities/Yash-Varshney-Creativities/main/AppLogo.ico" rel="icon">
+	<meta name="viewport" content="width=device-width, initial-space=1.0">
     <style>
+	
+		body {
+			opacity: 0;
+			transition: opacity 2s ease; 
+		}
+
+		.loaded {
+		   opacity : 1;
+		}
 
         body {
         background-color: #f6f5f5;
@@ -67,13 +76,13 @@
         background-image: linear-gradient(to bottom, #ffffff, #ffffff);
         color: black;
         text-decoration: none;
-
+		}
 
 
     </style>
 </head>
 
-<body>
+<body onload="document.body.classList.add('loaded')">
 <center>
     <h1 style="font-size: 60px; font-family: Arial;">Projects👩‍💻</h1>
     <hr style="width: 95%; height: 5px; background-color: Black;">
@@ -84,11 +93,9 @@
                 src="https://camo.githubusercontent.com/0443e8ce493c49aab6ee157db1a2c4a7436dc8cce9086edc647a7366490814f2/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f70696e2f3f757365726e616d653d596173682d56617273686e65792d437265617469766974696573267265706f3d596f75547562652d566964656f2d446f776e6c6f616465722d475549" border="4px"></a>
     <pre style="font-family: Maiandra GD; font-size: 175%;">This is a YouTube Video Downloader which downloads Videos from Youtube.</pre>
     <a class='btn'
-       href="https://github.com/Yash-Varshney-Creativities/YouTube-Video-Downloader-GUI/blob/master/Application.zip?raw=true">Download
-        App</a>
+       href="https://github.com/Yash-Varshney-Creativities/YouTube-Video-Downloader-GUI/blob/master/Application.zip?raw=true">Download App</a>
     <a class='btn'
-       href="YouTubeVideoDownloader">Download
-        Source Code</a>
+       href="YouTubeVideoDownloader">Download Source Code</a>
     <a class='btn'
        href="https://github.com/Yash-Varshney-Creativities/YouTube-Video-Downloader-GUI/blob/master/Overview%20Images%20and%20Pics/1.jpg?raw=true">View
         Screenshots</a>

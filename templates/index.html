@@ -8,6 +8,20 @@
 	<link rel="icon" href="https://raw.githubusercontent.com/Yash-Varshney-Creativities/Yash-Varshney-Creativities/main/AppLogo.ico">
     <style>
 
+		body {
+			opacity: 0;
+			transition: opacity 2s ease; 
+		}
+
+		.loaded {
+		   opacity : 1;
+		}
+
+		@font-face {
+			font-family: myFirstFont;
+			src: url(https://raw.githubusercontent.com/Yash-Varshney-Creativities/Yash-Varshney-Creativities/main/Caveat.woff);
+		}
+
         br {
             -webkit-user-select: none;
             -khtml-user-select: none;
@@ -17,7 +31,7 @@
         }
 
         #heading {
-            font-family: Caveat;
+            font-family: myFirstFont;
             font-size: 100px;
 			transition: font-size 0.1s;
         }
@@ -170,11 +184,13 @@
             color: black;
             text-decoration: none;
         }
+		
+		
 
     </style>
 
 </head>
-<body style="margin: 0px;">
+<body onload="document.body.classList.add('loaded')" style="margin: 0px;">
 <div id="Menu">
 	<hr style="margin: 0px; border-width: 3px; border-color: black;">
 	<div class="topnav" id="myTopnav">
@@ -208,12 +224,7 @@ user-select: none; margin: 0;" draggable="false" src="https://github.com/Yash-Va
 </div>
 <div style="background-color: #d3e0ea; margin: 0px">
     <center>
-        <img style="-webkit-user-select: none;
--khtml-user-select: none;
--moz-user-select: none;
--o-user-select: none;
-width: 700px;
-user-select: none;" class="mountain-img" draggable="false" src="https://raw.githubusercontent.com/Yash-Varshney-Creativities/Yash-Varshney-Creativities/1edfea5ef29df8911f2b617770802979c05637c4/mountain.svg">
+        <img style="-webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -o-user-select: none; width: 700px; user-select: none;" class="mountain-img" draggable="false" src="https://raw.githubusercontent.com/Yash-Varshney-Creativities/Yash-Varshney-Creativities/1edfea5ef29df8911f2b617770802979c05637c4/mountain.svg">
     </center>
 </div>
 <center>

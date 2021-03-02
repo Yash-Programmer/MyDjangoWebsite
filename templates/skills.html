@@ -3,9 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Skills</title>
-    <link href="https://raw.githubusercontent.com/Yash-Varshney-Creativities/Yash-Varshney-Creativities/main/AppLogo.ico"
-          rel="icon">
+    <link href="https://raw.githubusercontent.com/Yash-Varshney-Creativities/Yash-Varshney-Creativities/main/AppLogo.ico" rel="icon">
+	
     <style>
+
+		body {
+			opacity: 0;
+			transition: opacity 2s ease; 
+		}
+
+		.loaded {
+		   opacity : 1;
+		}
 
         br {
             margin: 0px;-webkit-user-select: none;
@@ -40,7 +49,7 @@
         width: 60%;
     </style>
 </head>
-<body>
+<body onload="document.body.classList.add('loaded')" >
 <br><br>
 <center>
     <img alt="skills"

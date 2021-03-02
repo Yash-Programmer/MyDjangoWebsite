@@ -3,9 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Chat</title>
-    <link href="https://raw.githubusercontent.com/Yash-Varshney-Creativities/Yash-Varshney-Creativities/main/AppLogo.ico"
-          rel="icon">
+    <link href="https://raw.githubusercontent.com/Yash-Varshney-Creativities/Yash-Varshney-Creativities/main/AppLogo.ico" rel="icon">
+	<meta name="viewport" content="width=device-width, initial-space=1.0">
     <style>
+	
+	
+	body {
+		opacity: 0;
+		transition: opacity 2s ease; 
+	}
+
+	.loaded {
+		opacity : 1;
+	}
+
+	
     span {
         color: red;
     }
@@ -68,7 +80,7 @@
 
     </style>
 </head>
-<body style="margin: 0;background-color: #f2f2f2;">
+<body onload="document.body.classList.add('loaded')" style="margin: 0;background-color: #f2f2f2;">
 <center>
     <h1 style="font-size: 60px; font-family: Arial;">Chat💬</h1>
     <hr style="width: 95%; height: 5px; background-color: Black;">
