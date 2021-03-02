@@ -26,7 +26,7 @@ def ans(request):
     message1 = message0.lower()
 
     try:
-        app_id = '8X8K8R-866YJ4X5RE'
+        app_id = 'API'
         client = wf.Client(app_id)
         result = client.query(message1)
         answer = next(result.results).text
@@ -64,7 +64,7 @@ def sent(request):
     mail.ehlo()
     mail.starttls()
     mail.ehlo_or_helo_if_needed()
-    mail.login('yashpythonemail@gmail.com', 'ijarileucauossqo')
+    mail.login('yashpythonemail@gmail.com', 'PS')
 
     def strip_emoji(text):
         new_text = re.sub(emoji.get_emoji_regexp(), r"", text)
