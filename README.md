@@ -2,7 +2,10 @@
 
 <h3>Hi This is a Basic Website Created By Me.<br>
 This have some basic funtionalities.<br>
-Let's Have a Quick Preview. (Click on Image To View it on Full Screen)</h3>
+Let's Have a Quick Preview. (Click on Image To View it on Full Screen)<br>
+Get the published site on https://yash-varshney.herokuapp.com/<br>
+If want to appreciate or report an issue, <a href="https://github.com/Yash-Varshney-Creativities/MyDjangoWebsite/issues/new">Click Here</a></h3>
+
 
 <b><h2>1. Home Page</h2></b><br>
 <b>Description: This is a dynamic and modern home page.</b>
